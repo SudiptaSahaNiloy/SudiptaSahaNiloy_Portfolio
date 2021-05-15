@@ -21,3 +21,27 @@ img {
 .text-color-white{
     color: white;
 }
+
+.avatar{
+    padding: 20%;   
+}
+
+.education-container{
+    background-color: #CED0DD;
+}
+
+.circle{
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.project-container{
+    background-color: #20A8E4;
+}
+
+.portfolio-container{
+    background-color: white;
+}
