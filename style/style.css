@@ -14,23 +14,25 @@ img {
     padding-right: 300px;
 }
 
-.navbar-colors{
-    background-color: #6C63FF;
+.navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
-.text-color-white{
+.text-color-white {
     color: white;
 }
 
-.avatar{
-    padding: 20%;   
+.avatar {
+    padding: 20%;
 }
 
-.education-container{
+.education-container {
     background-color: #CED0DD;
 }
 
-.circle{
+.circle {
     background-color: pink;
     width: 150px;
     height: 150px;
@@ -38,10 +40,34 @@ img {
     text-align: center;
 }
 
-.project-container{
+.project-container {
     background-color: #20A8E4;
 }
 
-.portfolio-container{
+.portfolio-container {
     background-color: white;
+}
+
+.contact-container {
+    background-color: #464D5E;
+}
+
+.inner-form {
+    background-color: #576077;
+}
+
+.footer-container {
+    background-color: #2BB3DD;
+}
+
+.circle-icon {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #2BB3DD;
+}
+
+.circle-icon:hover{
+    background-color: #464D5E;
 }
